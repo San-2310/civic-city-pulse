@@ -1,15 +1,15 @@
 
 import React from 'react';
 import Navigation from '../components/Navigation';
-import HomePage from '../components/HomePage';
+import CivicDashboard from '../components/CivicDashboard';
 
-const Index = () => {
+const DashboardPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navigation />
-      <HomePage />
+      <CivicDashboard />
     </div>
   );
 };
 
-export default Index;
+export default DashboardPage;

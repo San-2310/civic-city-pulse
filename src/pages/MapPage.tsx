@@ -1,15 +1,15 @@
 
 import React from 'react';
 import Navigation from '../components/Navigation';
-import HomePage from '../components/HomePage';
+import SmartMap from '../components/SmartMap';
 
-const Index = () => {
+const MapPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navigation />
-      <HomePage />
+      <SmartMap />
     </div>
   );
 };
 
-export default Index;
+export default MapPage;
